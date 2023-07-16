@@ -1,0 +1,21 @@
+<%- include("./Partials/header")-%>
+<p style="color: rgb(105, 105, 105); padding-top: 10px;">Talk to yourself once in a day, otherwise you may miss meeting an intelligent person in this world - Swami Vivekanand.</p>
+<h1>Home</h1>
+
+<p><%= homeStartingContent%></p>
+
+<% newAddedBlogs.forEach(function(post){ %>
+  <div>
+    <h1><%= post.myPostTitle %> </h1>
+     <p><%= post.myPostBody %> </p>
+  </div>
+<% }) %>
+
+
+
+
+
+
+
+<%- include("./Partials/footer")-%>
+

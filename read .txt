@@ -1,0 +1,22 @@
+
+
+<!-- 
+see we can do this -->
+<!-- <% console.log(newAddedBlog); %>      -->
+
+
+
+
+
+<!-- 
+
+<%for(var i=0;i<newAddedBlog.length;i++){ %>
+  <div>
+    <h1><%= newAddedBlog[i].myPostTitle %> </h1>
+     <p><%= newAddedBlog[i].myPostBody %> </p>
+  </div>
+   <%} %>
+  
+ -->
+
+
