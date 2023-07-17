@@ -7,8 +7,11 @@
 <% newAddedBlogs.forEach(function(post){ %>
   <div>
     <h1><%= post.myPostTitle %> </h1>
-     <p><%= post.myPostBody %> </p>
-  </div>
+     <p>
+      <%= post.myPostBody.substring(0, 100)+"... " %>
+     <a href="/post/<%=post.myPostTitle%>">Read More</a>
+    </p>
+   </div>
 <% }) %>
 
 
